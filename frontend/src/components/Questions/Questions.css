@@ -1,0 +1,79 @@
+.questions-section {
+    font-family: "Arial", sans-serif;
+    padding: 30px;
+    background-color: rgb(250, 229, 232);
+    margin-left: 82px;
+    margin-right: 82px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .questions-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+  }
+  
+  .questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .question-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+  }
+  
+  .options {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .option {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .option.active {
+    background-color: #ffd700;
+    transform: scale(1.1);
+  }
+  
+  .option:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+  
+  .personalized-tips {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .personalized-tips h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+  }
+  
+  .personalized-button {
+    font-size: 16px;
+    padding: 10px 30px;
+    background-color: #f2a0a1;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .personalized-button:hover {
+    background-color: #f08a8b;
+  }
+  

@@ -1,0 +1,59 @@
+
+
+.suggestion-area {
+  background-color: transparent;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.suggestion-area h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 600;
+}
+
+.get-suggestions-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-suggestions-btn:hover {
+  background-color: #0056b3;
+}
+
+.suggestions-list {
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.suggestions-list li {
+  background-color: #f8f9fa;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 20px;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.suggestions-list li:hover {
+  background-color: #e9ecef;
+}
+
+.loading, .error {
+  margin-top: 20px;
+  font-style: italic;
+  color: #888;
+}
